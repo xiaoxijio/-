@@ -15,30 +15,38 @@
 
 导入银行卡，对银行卡处理将数字拎出来，然后对数字一一匹配     
 1、导入银行卡     
-![image](https://github.com/user-attachments/assets/c2df7408-afe0-4ffa-b1c7-1ac81ac6dd31) 
+![image](https://github.com/user-attachments/assets/ad8eee54-6173-4f8d-91a7-16dc6ef7b110)
 
 2、将银行卡size调小并灰度处理    
-![image](https://github.com/user-attachments/assets/59ca63f6-697e-40f4-b57b-61661fe9cb5a) 
+![image](https://github.com/user-attachments/assets/5cdf9538-ba7b-413f-99e8-c851d06ce13c)
+
 
 3、礼帽处理，突出图像中比背景亮的小区域     
-![image](https://github.com/user-attachments/assets/a04ecc4b-210f-4bf5-992e-8fec7d42364c) 
+![image](https://github.com/user-attachments/assets/34c283ac-261f-4419-a677-5cc126fd3d8c)
+ 
 
 4、Sobel算子处理     
-![image](https://github.com/user-attachments/assets/c4ffe5aa-b3e4-4174-8672-670ab097c7fb) 
+![image](https://github.com/user-attachments/assets/4ac7c26c-5c98-4914-bc08-b0be57942a6f)
 
 5、闭运算，将数字糊一块     
-![image](https://github.com/user-attachments/assets/e86a5a52-c56f-4322-ae1d-b6af4394d20f) 
+![image](https://github.com/user-attachments/assets/7c0f44dd-f165-4306-9290-cd30c68ad1c3)
 
+ 
 6、二值处理     
-![image](https://github.com/user-attachments/assets/be1f3ff2-05ab-4c6d-8358-ac0f7256d8ef) 
+![image](https://github.com/user-attachments/assets/8b3420d7-8537-406d-a266-518199160087)
+
 
 7、画出轮廓     
-![image](https://github.com/user-attachments/assets/05c3c0cb-b152-41d2-851b-17b26ae20d38)  
+![image](https://github.com/user-attachments/assets/9f653d9e-7ff3-4b97-ae1e-67a38cbc9169)
+  
 
 8、提取数字轮廓并画外接矩阵，给数字框起来，然后给二值处理。对框里的数字做模版数字一样的活，让进行一一匹配    
 这里不展示了，大家在代码里debug，图太小了    
 9、最终效果图    
-![image](https://github.com/user-attachments/assets/c3d9ac5d-a654-4065-861f-f75d138e3be6)   
+![image](https://github.com/user-attachments/assets/b2f2122b-b7bb-4109-b9b2-24f18e985af7) 
+
+你们换别的信用卡图的时候会发现有点小bug，留给你们自己当练习了，怎么给它调好（绝对不是我懒得搞了）
+
 
 
 
