@@ -61,7 +61,7 @@ for (i, c) in enumerate(refCnts):
 rectKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (9, 3))  # 因为图片内容复杂，需要排除干扰项，卷积它！
 sqKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))  # 初始化卷积核
 
-image = cv2.imread('img/credit_card_04.png')
+image = cv2.imread('img/credit_card_01.png')
 # cv_show('image', image)
 image = resize_img(image, 300)  # 缩小
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # 灰度图
